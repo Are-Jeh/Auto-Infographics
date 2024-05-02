@@ -8,6 +8,9 @@ Convert text files into meaningful infographics.
 - Four posters are generated for the document shared.
 
 Inspiration - Dr.Sumit Kalra was creating an intelligent infographic tool. 
-The vision was to create multiple algorithms to create infographics for multiple document types(differentiated based on filetype .csv, .txt)
+The vision was to create multiple algorithms to create infographics for multiple document types(differentiated based on filetype .csv, .txt, folder of texts)
 
-  
+
+Implemented Topic Modeling with Latent Dirichlet Allocation Using Gibb's Sampling.
+Flow ==========================================================================================================================================================>
+Data -> pre-processed -> tf-idf -> lda -> keywords extraction -> image generation -> template superimpose -> final posters
